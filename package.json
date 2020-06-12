@@ -1,0 +1,27 @@
+{
+  "name": "blindkai-chat-backend",
+  "version": "0.0.1",
+  "description": "Backend for portfolio chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit nyc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlindKai/chat-backend.git"
+  },
+  "keywords": [
+    "chat",
+    "sockets"
+  ],
+  "author": "BlindKai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlindKai/chat-backend/issues"
+  },
+  "homepage": "https://github.com/BlindKai/chat-backend#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ws": "^7.3.0"
+  }
+}
