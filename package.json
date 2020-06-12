@@ -4,7 +4,10 @@
   "description": "Backend for portfolio chat application",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --exit nyc"
+    "start": "pm2 start",
+    "stop": "pm2 stop all",
+    "delete": "pm2 delete all",
+    "test": ""
   },
   "repository": {
     "type": "git",
