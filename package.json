@@ -25,6 +25,6 @@
   "homepage": "https://github.com/BlindKai/chat-backend#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "ws": "^7.3.0"
+    "ws": "^7.4.6"
   }
 }
